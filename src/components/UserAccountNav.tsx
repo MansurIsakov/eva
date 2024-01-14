@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 import { getUserSubscriptionPlan } from "@/lib/stripe";
 import {
   DropdownMenu,
@@ -8,9 +11,7 @@ import {
 } from "./ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { Avatar, AvatarFallback } from "./ui/avatar";
-import Image from "next/image";
 import { Icons } from "./Icons";
-import Link from "next/link";
 import { Gem } from "lucide-react";
 import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/server";
 
