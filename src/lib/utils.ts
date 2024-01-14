@@ -13,7 +13,7 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "eva - Give your PDFs a superpower",
+  title = "eva - PDFs with a superpower",
   description = "eva 1.0 is an open-source software to make chatting to your PDF files easy.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
